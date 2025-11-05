@@ -91,3 +91,11 @@ for n in nums:
     if n not in unique:
         unique.append(n)
 print("\n This is the updated list without duplicates: ", unique)
+
+# Find the second largest element
+
+# Check if the list is sorted
+
+# Find even and odd numbers
+
+# Find the common elements between two lists
