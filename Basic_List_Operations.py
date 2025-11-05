@@ -60,8 +60,13 @@ print("\n The chosen target appears in the given list, this many times: ", occur
 # Reverses a list
 left = 0
 right = len(nums) - 1
- 
 
+while right > left:
+    nums[left], nums[right] = nums[right], nums[left]
+    left += 1
+    right -= 1
+print("\n This is the reversed list: ", nums)
+ 
 # Checks if a list is a palindrome
 
 
