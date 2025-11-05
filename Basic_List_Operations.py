@@ -78,10 +78,16 @@ for n in nums:
         break
     left += 1
     right -= 1
+
 if palindrome == True:
     print("\n This list is a palindrome")
 else:
     print("\n This list is not a palindrome")
 
-
 # Removes duplicates from a list
+unique = []
+
+for n in nums:
+    if n not in unique:
+        unique.append(n)
+print("\n This is the updated list without duplicates: ", unique)
