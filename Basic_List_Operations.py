@@ -14,7 +14,7 @@ print()
     This is because, the project aims to help a user identify data structure patterns early on.
 '''
 # inputting the list of the user's choice
- 
+# List example used for testing purposes: [3, 7, 2, 9, 5, 5, 5]
 nums = input("Enter a list of your choice (like [3,7,2]) : ")
 nums = ast.literal_eval(nums)
 
