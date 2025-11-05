@@ -68,6 +68,20 @@ while right > left:
 print("\n This is the reversed list: ", nums)
  
 # Checks if a list is a palindrome
+left = 0
+right = len(nums) - 1
+palindrome = True
+
+for n in nums:
+    if nums[left] != nums[right]:
+        palindrome = False
+        break
+    left += 1
+    right -= 1
+if palindrome == True:
+    print("\n This list is a palindrome")
+else:
+    print("\n This list is not a palindrome")
 
 
 # Removes duplicates from a list
