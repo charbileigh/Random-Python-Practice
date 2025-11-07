@@ -105,9 +105,30 @@ for n in nums:
 print("\n This is the second largest number in the list: ", second_largest)
 
 # Find the fulcrum using the two pointer method
+left = 0
+right = len(nums) - 1
 
+right_sum = 0
+left_sum = 0
+
+while right > left:
+    if left == right - 1 and len(nums) % 2 != 0:
+        break
+    
+    left_sum += nums[left]
+    right_sum += nums[right]
+
+    left += 1
+    right -= 1
+
+    midpoint = len(nums) // 2
+
+if left_sum == right_sum:
+    print("\n This is the fulcrum of the list: ", nums[midpoint])
+else:
+    print("\n This list has no fulcrum!")
 
 # Turn a flat matrix into a string 
-for n in nums:
+for n in rows:
     string = "".join(nums)
 print("\n This is the list in string format: ", string)
