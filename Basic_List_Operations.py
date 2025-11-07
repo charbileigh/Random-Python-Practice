@@ -93,9 +93,18 @@ for n in nums:
 print("\n This is the updated list without duplicates: ", unique)
 
 # Find the second largest element
+largest = nums[0]
+second_largest = nums[0]
 
-# Check if the list is sorted
+for n in nums:
+    if n > largest:
+        second_largest = largest 
+        largest = n
+    elif n > second_largest and n != largest:
+        second_largest
+print("\n This is the second largest number in the list: ", second_largest)
 
-# Find even and odd numbers
+# Find the fulcrum using the two pointer method
 
-# Find the common elements between two lists
+
+# Turn a flat matrix into a string 
