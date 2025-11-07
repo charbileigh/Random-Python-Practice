@@ -101,10 +101,13 @@ for n in nums:
         second_largest = largest 
         largest = n
     elif n > second_largest and n != largest:
-        second_largest
+        second_largest = n
 print("\n This is the second largest number in the list: ", second_largest)
 
 # Find the fulcrum using the two pointer method
 
 
 # Turn a flat matrix into a string 
+for n in nums:
+    string = "".join(nums)
+print("\n This is the list in string format: ", string)
