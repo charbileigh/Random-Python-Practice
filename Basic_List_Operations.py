@@ -129,6 +129,5 @@ else:
     print("\n This list has no fulcrum!")
 
 # Turn a flat matrix into a string 
-for n in rows:
-    string = "".join(nums)
+string = "".join(str(n) for n in nums)
 print("\n This is the list in string format: ", string)
