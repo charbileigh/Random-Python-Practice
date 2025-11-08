@@ -131,3 +131,14 @@ else:
 # Turn a flat matrix into a string 
 string = "".join(str(n) for n in nums)
 print("\n This is the list in string format: ", string)
+
+# Finding the even and odd numbers from the list
+even= [n for n in nums if n % 2 == 0]
+odd = [n for n in nums if n % 2 != 0]
+
+print("\n These are the even numbers within the list: ", even)
+print("\n These are the odd numbers within the list: ", odd)
+
+# Double the numbers within the given list
+double = [n * 2 for n in nums]
+print("\n The list entries doubled: ", double)
