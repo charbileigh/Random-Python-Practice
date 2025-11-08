@@ -21,5 +21,5 @@ nums1 = ast.literal_eval(nums1)
 
 # inputting the list of the user's second choice
 # Second list example: [2, 6, 2, 9, 6, 7, 5]
-nums2 = input("\n Enter a second list of your choice (like [3,7,2]) : ")
+nums2 = input("\n Enter the second list of your choice (like [3,7,2]) : ")
 nums2 = ast.literal_eval(nums2)
