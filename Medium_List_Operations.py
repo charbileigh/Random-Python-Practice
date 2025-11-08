@@ -2,7 +2,7 @@ import ast
 
 print("This is a mini list operation project")
 print()
-print("Ensure that you enter the first and second list with a minimum of 4 entries")
+print("Ensure that you enter the first and second list of your choice with a minimum of 4 entries")
 print()
 print("For example: [a, b, c, d]")
 print()
