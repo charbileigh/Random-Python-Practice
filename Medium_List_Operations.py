@@ -24,6 +24,10 @@ nums1 = ast.literal_eval(nums1)
 nums2 = input("\n Enter the second list of your choice (like [3,7,2]) : ")
 nums2 = ast.literal_eval(nums2)
 
+target = input("\n Enter the target to be used in the two sorted array question: ")
+target = int(target)
+
+print("\n -----------------------------------  Answers using the lists and target  ------------------------------------")
 
 # Validate a mountain array for nums1 
 def is_mountain(nums1):
@@ -70,3 +74,7 @@ def is_mountain(nums2):
 
     return "\n This list is a mountain array"
 print(is_mountain(nums2))
+
+# Two sum in a sorted array for nums1
+
+# Two sum in a sorted array for nums2
