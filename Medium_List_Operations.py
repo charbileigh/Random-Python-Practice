@@ -23,3 +23,7 @@ nums1 = ast.literal_eval(nums1)
 # Second list example: [2, 6, 2, 9, 6, 7, 5]
 nums2 = input("\n Enter the second list of your choice (like [3,7,2]) : ")
 nums2 = ast.literal_eval(nums2)
+
+# Validate a mountain array for nums1 
+
+# Validate a mountain array for nums2
