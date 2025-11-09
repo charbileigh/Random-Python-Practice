@@ -24,6 +24,7 @@ nums1 = ast.literal_eval(nums1)
 nums2 = input("\n Enter the second list of your choice (like [3,7,2]) : ")
 nums2 = ast.literal_eval(nums2)
 
+
 # Validate a mountain array for nums1 
 def is_mountain(nums1):
     n = len(nums1)
@@ -45,6 +46,7 @@ def is_mountain(nums1):
 
     return "\n This list is a mountain array"
 print(is_mountain(nums1))
+
 
 # Validate a mountain array for nums2
 def is_mountain(nums2):
