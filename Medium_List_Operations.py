@@ -75,7 +75,7 @@ def is_mountain(nums2):
     return "\n This list is a mountain array"
 print(is_mountain(nums2))
 
-# Two sum in a sorted array for nums1
+# Two sum in a sorted array for nums1 (using the two-pointer method)
 def two_sum_sorted(nums1, target):
     left = 0
     right = len(nums1) - 1
@@ -93,7 +93,7 @@ def two_sum_sorted(nums1, target):
 print("\n This is the two sum in the first sorted array: ", two_sum_sorted(nums1, target))
 
 
-# Two sum in a sorted array for nums2
+# Two sum in a sorted array for nums2 (using the two-pointer method)
 def two_sum_sorted(nums2, target):
     left = 0
     right = len(nums2) - 1
