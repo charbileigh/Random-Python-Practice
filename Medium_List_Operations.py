@@ -109,3 +109,7 @@ def two_sum_sorted(nums2, target):
     return None
 
 print("\n This is the two sum in the second sorted array: ", two_sum_sorted(nums2, target))
+
+# The minimum length of a subarray for nums1 (using the sliding window method)
+
+# The minimum length of a subarray for nums2 (using the sliding window method)
