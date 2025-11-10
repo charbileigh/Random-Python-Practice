@@ -80,19 +80,32 @@ def two_sum_sorted(nums1, target):
     left = 0
     right = len(nums1) - 1
 
-    while right > left:
+    while left < right:
         s = nums1[left] + nums1[right]
         if s == target:
             return (left, right)
         if s < target:
             left += 1
         else:
-            right += 1
+            right -= 1
     return None
 
 print("\n This is the two sum in the first sorted array: ", two_sum_sorted(nums1, target))
 
 
 # Two sum in a sorted array for nums2
+def two_sum_sorted(nums2, target):
+    left = 0
+    right = len(nums2) - 1
+
+    while left < right:
+        s = nums2[left] + nums2[right]
+        if s == target:
+            return (left, right)
+        if s < target:
+            left += 1
+        else:
+            right -= 1
+    return None
 
 print("\n This is the two sum in the second sorted array: ", two_sum_sorted(nums2, target))
