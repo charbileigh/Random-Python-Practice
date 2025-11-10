@@ -76,5 +76,7 @@ def is_mountain(nums2):
 print(is_mountain(nums2))
 
 # Two sum in a sorted array for nums1
+print("\n This is the two sum in the first sorted array: ")
 
 # Two sum in a sorted array for nums2
+print("\n This is the two sum in the second sorted array: ")
