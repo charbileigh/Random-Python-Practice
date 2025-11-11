@@ -125,7 +125,7 @@ def min_length_subarray(nums1, target):
     return 0 if best == len(nums1) + 1 else best
 
 
-print("\n This is the minimum length of the nums1 sub-array: ", min_length_subarray(nums1, target))
+print("\n This is the minimum length of the first list sub-array: ", min_length_subarray(nums1, target))
 
 # The minimum length of a sub-array for nums2 (using the sliding window method)
 def min_length_subarray(nums2, target):
@@ -141,4 +141,4 @@ def min_length_subarray(nums2, target):
             left += 1
     return 0 if best == len(nums2) + 1  else best
 
-print("\n This is the minimum length of the nums2 sub-array: ", min_length_subarray(nums2, target))
+print("\n This is the minimum length of the second list sub-array: ", min_length_subarray(nums2, target))
