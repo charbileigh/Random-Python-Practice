@@ -48,7 +48,7 @@ def is_mountain(nums1):
     while i + 1 < n and nums1[i] > nums1[i + 1]:
         i += 1
 
-    return "\n This list is a mountain array"
+    return "\n The first list is a mountain array"
 print(is_mountain(nums1))
 
 
@@ -72,7 +72,7 @@ def is_mountain(nums2):
     while i + 1 < n and nums2[i] > nums2[i + 1]:
         i += 1
 
-    return "\n This list is a mountain array"
+    return "\n The second list is a mountain array"
 print(is_mountain(nums2))
 
 # Two sum in a sorted array for nums1 (using the two-pointer method)
