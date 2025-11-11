@@ -122,7 +122,7 @@ def min_length_subarray(nums1, target):
             best = min(best, right - left + 1)
             cur -= nums1[left]
             left += 1
-    return 0 if best == len(nums1 + 1) else best
+    return 0 if best == len(nums1) + 1 else best
 
 
 print("\n This is the minimum length of the nums1 sub-array: ", min_length_subarray(nums1, target))
@@ -139,6 +139,6 @@ def min_length_subarray(nums2, target):
             best = min(best, right - left + 1)
             cur -= nums2[left]
             left += 1
-    return 0 if best == len(nums2 + 1) else best
+    return 0 if best == len(nums2) + 1  else best
 
 print("\n This is the minimum length of the nums2 sub-array: ", min_length_subarray(nums2, target))
