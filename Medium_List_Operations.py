@@ -166,7 +166,7 @@ def three_sum_closest(nums1, target):
                 right -= 1
     return closest_sum
 
-print("\n This is the closest three sum to the target of the first list / array: ", three_sum(nums1, target)) 
+print("\n This is the closest three sum to the target of the first list / array: ", three_sum_closest(nums1, target)) 
 
 
 # Find the triplets that sum the target from nums2 using a two pointer and sorting algorithm
@@ -190,5 +190,5 @@ def three_sum_closest(nums2, target):
                 right -= 1
     return closest_sum
 
-print("\n This is the closest three sum to the target of the second list / array: ", three_sum(nums2, target)) 
+print("\n This is the closest three sum to the target of the second list / array: ", three_sum_closest(nums2, target)) 
 
