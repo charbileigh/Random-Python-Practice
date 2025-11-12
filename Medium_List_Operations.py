@@ -146,7 +146,7 @@ print("\n This is the minimum length of the second list sub-array: ", min_length
 
 
 # Find the triplets that sum the target from nums1 using a two pointer and sorting and sorting algorithm
-def three_sum(nums1, target):
+def three_sum_closest(nums1, target):
     nums1.sort()
     closest_sum = nums1[0] + nums1[1] + nums1[2]
 
@@ -170,7 +170,7 @@ print("\n This is the closest three sum to the target of the first list / array:
 
 
 # Find the triplets that sum the target from nums2 using a two pointer and sorting algorithm
-def three_sum(nums2, target):
+def three_sum_closest(nums2, target):
     nums2.sort()
     closest_sum = nums2[0] + nums2[1] + nums2[2]
 
