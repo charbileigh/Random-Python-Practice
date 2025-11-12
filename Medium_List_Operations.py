@@ -142,3 +142,8 @@ def min_length_subarray(nums2, target):
     return 0 if best == len(nums2) + 1  else best
 
 print("\n This is the minimum length of the second list sub-array: ", min_length_subarray(nums2, target))
+
+# Find the triplets that sum the target from nums1 using a two pointer and sorting and sorting algorithm
+
+# Find the triplets that sum the target from nums2 using a two pointer and sorting algorithm
+
