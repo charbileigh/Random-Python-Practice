@@ -127,6 +127,7 @@ def min_length_subarray(nums1, target):
 
 print("\n This is the minimum length of the first list sub-array: ", min_length_subarray(nums1, target))
 
+
 # The minimum length of a sub-array for nums2 (using the sliding window method)
 def min_length_subarray(nums2, target):
     left = 0
@@ -142,6 +143,7 @@ def min_length_subarray(nums2, target):
     return 0 if best == len(nums2) + 1  else best
 
 print("\n This is the minimum length of the second list sub-array: ", min_length_subarray(nums2, target))
+
 
 # Find the triplets that sum the target from nums1 using a two pointer and sorting and sorting algorithm
 def three_sum(nums1, target):
@@ -164,7 +166,7 @@ def three_sum(nums1, target):
                 right -= 1
     return closest_sum
 
-print("\n This is the closest sum to the target of the first list / array: ", three_sum(nums1, target)) 
+print("\n This is the closest three sum to the target of the first list / array: ", three_sum(nums1, target)) 
 
 
 # Find the triplets that sum the target from nums2 using a two pointer and sorting algorithm
@@ -188,5 +190,5 @@ def three_sum(nums2, target):
                 right -= 1
     return closest_sum
 
-print("\n This is the closest sum to the target of the second list / array: ", three_sum(nums2, target)) 
+print("\n This is the closest three sum to the target of the second list / array: ", three_sum(nums2, target)) 
 
