@@ -27,7 +27,7 @@ nums2 = ast.literal_eval(nums2)
 target = input("\n Enter the target to be used in the two sorted array question: ")
 target = int(target)
 
-print("\n -----------------------------------  Answers using the lists and target  ------------------------------------")
+print("\n -----------------------------------  Start of answers: using the lists and target  ------------------------------------")
 
 # Validate a mountain array for nums1 
 def is_mountain(nums1):
